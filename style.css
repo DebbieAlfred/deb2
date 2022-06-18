@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca',sans-serif;
+}
+.container{
+    background: silver;
+    height: 100vh;
+    margin:0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_sedans{
+  background-color:   hsl(31, 77%, 52%);
+  height: 500px;
+  width: 1000px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img_sedans, .img_suvs, .img_luxury{
+    margin: 25px;
+    padding: 5px;
+}
+.card_suvs{
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.card_luxury{
+    background-color:  hsl(179, 100%, 13%);
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.para_sedans, .para_suvs, .para_luxury{
+    margin: 25px;
+    line-height: 1.5;
+    color:  hsla(0, 0%, 100%, 0.75);
+
+}
+.title_sedans, .title_suvs, .title_luxury{
+    margin: 30px;
+    color:hsl(0, 0%, 95%);
+    font-family:"Big Shoulders Display" cursive;
+}
+.button_sedans, .button_suvs, .button_luxury{
+    margin-top: auto;
+    margin-bottom: 5em;
+    margin-left: 1.5em;
+}
+button{
+    padding: 1em;
+    border-radius: 3em;
+    width: 10em;
+    cursor:pointer;
+    font-family:'Lexend Deca', sans-serif;
+
+}
+.button_sedans>button{ 
+    color: hsl(31, 77%, 52%);
+}
+.button_suvs>button{
+color: hsl(184, 100%, 22%);
+}
+.button_luxury>button{
+    color: hsl(179, 100%, 13%);
+}
+.button_sedans>button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.button_suvs>button:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+}
+.button_luxury>button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
